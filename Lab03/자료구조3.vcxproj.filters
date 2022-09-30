@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LIST">
+      <UniqueIdentifier>{587265b5-abe5-41b2-8c2b-1f4526bca916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{d83a9068-fe9b-489e-a1e9-5f6d2e5d73c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{a8a7c0ed-ae9d-43f0-8626-cad88a0ee7b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CList.cpp">
+      <Filter>LIST</Filter>
+    </ClCompile>
+    <ClCompile Include="CSortedList.cpp">
+      <Filter>LIST</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircularQueueType.cpp">
+      <Filter>LIST</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplication_FC.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="CMultimediaContent.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="CFavoriteContent.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CEvent.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplication.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CList.h">
+      <Filter>LIST</Filter>
+    </ClInclude>
+    <ClInclude Include="CSortedList.h">
+      <Filter>LIST</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication_FC.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircularQueueType.h">
+      <Filter>LIST</Filter>
+    </ClInclude>
+    <ClInclude Include="CMultimediaContent.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="CFavoriteContent.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CEvent.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

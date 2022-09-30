@@ -1,0 +1,25 @@
+4
+Event1	
+Event2	Event2 Description !!!!
+Party	
+Travel	
+5
+Choi	My best friend
+Immanuel	
+John	My coworker
+Kim	
+Won	
+6
+Jeju	Jeju island
+Location	
+London	
+Seoul	My Home town
+Tokoy	
+Paris	
+test01	VIDEO	2020년10월25일3시36분33초	Location	Won	3	Event1	32
+test02	VIDEO	2020년10월25일3시36분51초	Jeju	Kim	0	Event2	23
+test03	PICTURE	2020년10월25일3시37분37초	Seoul	Won	3	Event2	17
+test06	VIDEO	2020년10월25일16시11분6초	Seoul	Immanuel	2	Party	2
+Test07	VIDEO	2020년10월25일16시12분13초	Tokoy	Choi	1	Party	2
+Test05	PICTURE	2020년10월25일15시58분54초	London	Kim	3	Travel	3
+Test08	PICTURE	2020년10월25일16시25분7초	Paris	John	3	Party	2

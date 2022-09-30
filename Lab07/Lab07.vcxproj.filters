@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{529298cd-c9f8-48bd-8c4e-533128211863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ItemType">
+      <UniqueIdentifier>{1ab77ce4-10a6-456b-a012-9c18bfebd9d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoublyLinkedList.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoublyIterator.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplication.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="CContent.cpp">
+      <Filter>ItemType</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CApplication.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoublyLinkedList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoublyIterator.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CContent.h">
+      <Filter>ItemType</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

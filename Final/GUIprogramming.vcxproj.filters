@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{de8dcb96-606c-4390-9f15-0ad923a39629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{1fe14106-ea96-443d-89dd-6fd16122b512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{0ccb1039-7fd0-4e46-b78f-29d9ad36833b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CContent.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIprogramming.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCon.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSortedList.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroup.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CContent.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSortedList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroup.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="AddCon.ui">
+      <Filter>GUI</Filter>
+    </QtUic>
+    <QtUic Include="GUIprogramming.ui">
+      <Filter>GUI</Filter>
+    </QtUic>
+    <QtUic Include="Widget.ui">
+      <Filter>GUI</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GUIprogramming.h">
+      <Filter>GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="AddCon.h">
+      <Filter>GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget.h">
+      <Filter>GUI</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="GUIprogramming.qrc">
+      <Filter>Type</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

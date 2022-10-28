@@ -3,7 +3,7 @@
 
 ## 구현 목록
 * [List](/Lab03/CList.h)
-* [SortedList](/Lab03/CArrayList.h)    
+* [SortedList](/Lab03/CSortedList.h)    
 * [CircularQueue](/Lab03/CCircularQueueType.h)
 * [SortedLinkedList](/Lab04/CSortedLinkedList.h)
 * [DoublyLinkedList](/Lab07/CDoublyLinkedList.h) & [DoublyIterator](/Lab07/CDoublyIterator.h)    
